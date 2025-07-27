@@ -7,7 +7,7 @@ dist/
 build/
 
 # Virtual environments
-sheetify/
+.venv/
 .env/
 *.env
 
