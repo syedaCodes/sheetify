@@ -44,3 +44,6 @@ git clone https://github.com/syedacodes/sheetify.git
 cd sheetify
 pip install -r requirements.txt
 streamlit run app.py
+```
+## Note: This is the prototype version of Sheetify built with Streamlit.
+I'm currently working on a more flexible and powerful version using React, TailwindCSS, and FastAPI.
