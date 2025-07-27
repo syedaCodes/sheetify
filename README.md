@@ -1,29 +1,41 @@
 # 📄 Sheetify
 
-A no-code tool that allows users to import messy, unstructured data (CSV, text, or JSON), clean and organize it, and export it to Excel or Google Sheets.
+A no-code tool that allows users to import messy, unstructured data (CSV, TXT, or JSON), clean and organize it, and export it to Excel — no coding required.
 
-## 🚀 Features (Planned)
+## 🚀 Features
 
-- Upload or paste CSV, TXT, or JSON data
-- Auto-detect and map fields
-- Preview & edit tabular data
-- Export as Excel (.xlsx) or to Google Sheets
+- ✅ Paste or upload JSON, CSV, TSV files
+- ✅ Auto-detects structure and converts to a table
+- ✅ Preview parsed data before exporting
+- ✅ Export to Excel (.xlsx)
+- ⏳ Google Sheets export (coming soon)
+- ⏳ Saved templates for recurring data cleanup
 
 ## 📦 Tech Stack
 
-- **Frontend**: Streamlit (for prototype)
-- **Backend**: Python (FastAPI in future)
+- **Frontend**: Streamlit (for MVP prototype)
+- **Backend**: Python (FastAPI planned)
 - **Data Handling**: pandas, openpyxl, json
-- **Optional**: gspread for Google Sheets integration
 
-## 📌 Project Roadmap
+## 🛣️ Project Roadmap
 
-- [ ] Basic Streamlit UI
-- [ ] Handle CSV/Delimited Text Input
-- [ ] Add JSON support
-- [ ] Excel export
-- [ ] Google Sheets integration
-- [ ] Saved templates (field mapping)
+### ✅ Version 1 – MVP (Streamlit)
+- [x] Paste/upload CSV, TXT, or JSON
+- [x] Parse and auto-normalize raw data
+- [x] Filter and select columns
+- [x] Export to Excel and CSV
+- [x] Minimal UI with Streamlit
+
+### 🚧 Version 2 – Full Tech Stack Migration
+_Rebuilding Sheetify with full control over frontend/backend for extensibility._
+
+- ⚛️ Frontend: React + TailwindCSS UI
+- 🔧 Backend: FastAPI (Python) for data processing
+- 📁 Rich file upload/download support
+- 🎨 Modern UI with flexible layouts and themes
+- 📊 Column mapping, templates, and saved presets
+- 📤 Export to Excel and Google Sheets
+- 🧪 Better testing, modularization, and deployment readiness
 
 ## 🛠️ Setup Instructions
 
